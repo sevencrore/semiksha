@@ -11627,7 +11627,7 @@ ul {
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 15px;
-    color: #333;
+    color: var(--clr-theme-primary);
     text-transform: capitalize;
 }
 
@@ -11641,7 +11641,7 @@ ul {
 .ecods-product-description {
     font-size: 16px;
     line-height: 1.7;
-    color: #555;
+    color: #fff;
     margin-bottom: 30px;
 }
 
