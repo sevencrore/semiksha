@@ -11551,6 +11551,8 @@ ul {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
+   
+    justify-content: center;
 }
 
 .ecods-thumb {
@@ -11602,7 +11604,9 @@ ul {
 .ecods-more-images-title {
     font-size: 28px;
     font-weight: 500;
-    color: #333;
+    color: var(--clr-theme-primary);
+    display: flex;
+    justify-content: center;
 }
 
 .ecods-product-info {
