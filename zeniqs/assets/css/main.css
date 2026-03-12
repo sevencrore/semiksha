@@ -11497,3 +11497,217 @@ ul {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/* =============================== Ecods Project Details =================== */
+
+
+/* ================================== SECTION-1 ================================== */
+
+.ecods-product-details-area {
+    font-family: inherit;
+}
+
+.ecods-product-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ecods-main-image {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.ecods-main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.ecods-zoom-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.ecods-zoom-btn:hover {
+    color: var(--clr-theme-primary, #0056b3);
+}
+
+.ecods-thumbnail-images {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.ecods-thumb {
+    flex: 0 0 calc(25% - 11.25px);
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ecods-thumbnail-grid .ecods-thumb {
+    flex: 0 0 calc(14.285% - 13px);
+}
+
+@media (max-width: 991px) {
+    .ecods-thumbnail-grid .ecods-thumb {
+        flex: 0 0 calc(20% - 12px);
+    }
+}
+
+@media (max-width: 767px) {
+    .ecods-thumbnail-grid .ecods-thumb {
+        flex: 0 0 calc(33.333% - 10px);
+    }
+}
+
+.ecods-thumb.active {
+    opacity: 1;
+    border-color: #0062cc;
+}
+
+.ecods-thumb:hover {
+    opacity: 0.8;
+}
+
+.ecods-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+.ecods-more-images-title {
+    font-size: 28px;
+    font-weight: 500;
+    color: #333;
+}
+
+.ecods-product-info {
+    padding-left: 20px;
+}
+
+.ecods-breadcrumb {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.ecods-category-link {
+    font-size: 16px;
+    color: #0062cc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.ecods-product-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.ecods-product-price {
+    font-size: 24px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.ecods-product-description {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.ecods-add-to-cart-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ecods-quantity-input {
+    width: 60px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+}
+
+.ecods-quantity-input::-webkit-inner-spin-button,
+.ecods-quantity-input::-webkit-outer-spin-button {
+    opacity: 1;
+}
+
+.ecods-add-to-cart-btn {
+    background: #0062cc;
+    color: #fff;
+    border: none;
+    padding: 0 25px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.ecods-add-to-cart-btn:hover {
+    background: #004a99;
+}
+
+.ecods-meta {
+    font-size: 15px;
+    color: #333;
+    font-weight: 500;
+}
+
+.ecods-meta-label {
+    font-weight: 500;
+}
+
+.ecods-meta-link {
+    color: #0062cc;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.ecods-meta-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+    .ecods-product-info {
+        padding-left: 0;
+        margin-top: 40px;
+    }
+}
