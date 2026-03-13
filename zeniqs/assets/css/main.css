@@ -11715,3 +11715,15 @@ ul {
         margin-top: 40px;
     }
 }
+.zq_inner_team-item-img {
+                aspect-ratio: 4/5;
+                overflow: hidden;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .zq_inner_team-item-img img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
