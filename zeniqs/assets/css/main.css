@@ -12610,7 +12610,7 @@ ul {
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: 0;
 }
 
